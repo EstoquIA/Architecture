@@ -4,11 +4,24 @@
   <folder name="Business" id="id-12c41f590bb8478a8f02017d9291d5bb" type="business"/>
   <folder name="Application" id="id-2669146868b745e4836747d611b8e07a" type="application"/>
   <folder name="Technology &amp; Physical" id="id-7f00a3f8ba8c483187bd0afba9abf446" type="technology"/>
-  <folder name="Motivation" id="id-cc7ae89ea2454c8886228f8fb69bcc58" type="motivation"/>
+  <folder name="Motivation" id="id-cc7ae89ea2454c8886228f8fb69bcc58" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Gustavo Fonseca " id="id-81589c5c0aa0442f93ea5d80e9a9915e"/>
+    <element xsi:type="archimate:Driver" name="Earn money developing an web software" id="id-bc79cee2017d40daaf6dfaed6759f0b0"/>
+  </folder>
   <folder name="Implementation &amp; Migration" id="id-b79590ca658a433f8e530edcc5a5cf51" type="implementation_migration"/>
   <folder name="Other" id="id-8bfa88dc8d7a4e31a804b1f634f10ee3" type="other"/>
-  <folder name="Relations" id="id-6c5487dd82ad47458fbfbd3d802440e7" type="relations"/>
+  <folder name="Relations" id="id-6c5487dd82ad47458fbfbd3d802440e7" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-27af792951ea4211b0db852b0be7743f" source="id-bc79cee2017d40daaf6dfaed6759f0b0" target="id-81589c5c0aa0442f93ea5d80e9a9915e"/>
+  </folder>
   <folder name="Views" id="id-063d4f91fc73468d9b32fd76ad1b27f0" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="EstoquIA architecture" id="id-c3f04cbf4a304151a584286f5fdd03b3"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="EstoquIA architecture" id="id-c3f04cbf4a304151a584286f5fdd03b3">
+      <child xsi:type="archimate:DiagramObject" id="id-93bb9d2af1e341f9861d7b8b30ba4f45" targetConnections="id-f2b48218e99d48a496815a0e0ef5262d" archimateElement="id-81589c5c0aa0442f93ea5d80e9a9915e">
+        <bounds x="654" y="177" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5dc42da1e2dc43ca9a90f7619a1897af" archimateElement="id-bc79cee2017d40daaf6dfaed6759f0b0">
+        <bounds x="420" y="177" width="157" height="76"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f2b48218e99d48a496815a0e0ef5262d" source="id-5dc42da1e2dc43ca9a90f7619a1897af" target="id-93bb9d2af1e341f9861d7b8b30ba4f45" archimateRelationship="id-27af792951ea4211b0db852b0be7743f"/>
+      </child>
+    </element>
   </folder>
 </archimate:model>
