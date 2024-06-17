@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-bd8ff60ce87b46ba9f41789d75359980" version="5.0.0">
+  <folder name="Strategy" id="id-fcde1f352cf64f3a9458cbe0f7f35c3e" type="strategy"/>
+  <folder name="Business" id="id-12c41f590bb8478a8f02017d9291d5bb" type="business"/>
+  <folder name="Application" id="id-2669146868b745e4836747d611b8e07a" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-7f00a3f8ba8c483187bd0afba9abf446" type="technology"/>
+  <folder name="Motivation" id="id-cc7ae89ea2454c8886228f8fb69bcc58" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-b79590ca658a433f8e530edcc5a5cf51" type="implementation_migration"/>
+  <folder name="Other" id="id-8bfa88dc8d7a4e31a804b1f634f10ee3" type="other"/>
+  <folder name="Relations" id="id-6c5487dd82ad47458fbfbd3d802440e7" type="relations"/>
+  <folder name="Views" id="id-063d4f91fc73468d9b32fd76ad1b27f0" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="EstoquIA architecture" id="id-c3f04cbf4a304151a584286f5fdd03b3"/>
+  </folder>
+</archimate:model>
